@@ -1,0 +1,237 @@
+@import url(http://fonts.googleapis.com/css?family=PT+Serif);
+
+/* ====================
+CSS Reset
+==================== */
+
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+a {
+	text-decoration: none;
+}
+
+
+/* ====================
+LEFT COL
+==================== */
+
+#left-col {
+	font-family: arial, sans-serif;
+	position: fixed;
+	height: 100%;
+	background: white;
+	border-right: 1px solid #bdbdbd;
+	left: 0;
+	min-width: 250px;
+}
+
+#left-col img {
+	width: 200px;
+	margin-left: 32px;
+	margin-top: 20px;
+}
+
+#left-col nav {
+    margin: 20px 0 0 30px;
+    line-height: 25px;
+}
+
+#left-col nav a {
+	color: #3D3D3D;
+	display: block;
+	padding-left: 10px;
+	border-bottom: 1px solid white;
+}
+
+#left-col nav a:hover {
+	color: #828282;
+	border-bottom: 1px solid #828282;
+}
+
+#contact {
+	width: 140px;
+	position: fixed;
+	bottom: 30px;
+	left: 61px;
+}
+
+#contact p {
+	color: #3D3D3D;
+	font-size: 0.9em;
+	padding: 0 0 10px 2px;
+}
+.social {
+	background: url("images/spriteicons.png") no-repeat;
+	display: inline-block;
+	width: 25px;
+	height: 25px;
+	float: left;
+	margin-right: 10px;
+	background-size: 48px;
+}
+
+.fb {
+	background-position: 0px -50px;
+}
+.fb:hover {
+	background-position: -26px -50px;
+}
+
+.tw {
+	background-position: 0px -450px;
+}
+.tw:hover {
+	background-position: -26px -450px;
+}
+
+.pi {
+	background-position: 0px -721px;
+}
+.pi:hover {
+	background-position: -26px -721px;
+}
+
+.in {
+	background-position: 0px -500px;
+}
+.in:hover {
+	background-position: -26px -500px;
+}
+
+/* ====================
+RIGHT TOP
+==================== */
+
+#right-col {
+	margin-left: 251px;
+	min-width: 700px;
+	
+}
+
+#top {
+	position: relative;
+	height: 515px;
+	border-bottom: 1px solid #BDBDBD;
+	overflow: hidden;
+}
+
+#top img {
+	height: 515px;
+	position: absolute;
+}
+
+#top h1, #top h2{
+	font-family: "PT Serif", serif;
+}
+
+#titles {
+	position: absolute;
+	top: 300px;
+	left: 100px;
+}
+
+#titles h1 {
+	color: white;
+	font-size: 3em;
+	background: #2b2b2b;
+	padding: 5px 10px;
+	width: 171px;
+}
+
+#titles h2 {
+	color: white;
+	font-size: 2em;
+	background: #828282;
+	padding: 5px 10px 8px;
+	margin-top: 10px;
+}
+
+#titles button {
+	border: 0;
+	color: white;
+	outline: 0;
+	background: #F58031;
+	font-size: 1.1em;
+	padding: 10px 20px;
+	border-radius: 2px;
+	float: right;
+	margin-top: 8px;
+}
+#titles button:hover {
+	cursor: pointer;
+	background: #C56626;
+}
+
+
+
+/* ====================
+RIGHT BOTTOM
+==================== */
+
+#bottom {
+	float: left;
+	width: 1000px;
+}
+
+#bottom img {
+	height: 258px;
+	float: left;
+}
+
+.new-jewelry {
+	width: 300px;
+	float: left;
+	margin: 40px 0 0 10px;
+}
+
+.new-jewelry a {
+	font-family: "PT Serif", serif;
+	font-size: 2em;
+	color: #8F2201;
+}
+.new-jewelry a:hover {
+	color: #661801;
+}
